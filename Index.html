@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host de MTA</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #121212; color: white; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .plan { border: 1px solid #444; padding: 20px; margin: 10px; border-radius: 10px; }
+        .button { background-color: #28a745; padding: 10px 20px; color: white; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo à Melhor Host de MTA</h1>
+        <p>Escolha um plano e comece agora!</p><div class="plan">
+        <h2>Plano Básico</h2>
+        <p>1GB RAM - 50 Slots</p>
+        <p>R$ 15,00/mês</p>
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+            <input type="hidden" name="business" value="SEU_PAYPAL_EMAIL">
+            <input type="hidden" name="amount" value="15.00">
+            <input type="hidden" name="currency_code" value="BRL">
+            <button type="submit" class="button">Pagar com PayPal</button>
+        </form>
+        <a href="https://seusite.com/gerar-pix?valor=15" class="button">Pagar com Pix</a>
+    </div>
+    
+    <div class="plan">
+        <h2>Plano Avançado</h2>
+        <p>2GB RAM - 100 Slots</p>
+        <p>R$ 25,00/mês</p>
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+            <input type="hidden" name="business" value="SEU_PAYPAL_EMAIL">
+            <input type="hidden" name="amount" value="25.00">
+            <input type="hidden" name="currency_code" value="BRL">
+            <button type="submit" class="button">Pagar com PayPal</button>
+        </form>
+        <a href="https://seusite.com/gerar-pix?valor=25" class="button">Pagar com Pix</a>
+    </div>
+</div>
+
+</body>
+</html>
